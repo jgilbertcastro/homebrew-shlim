@@ -1,28 +1,28 @@
 class Shlim < Formula
   desc "Persistent, token-lean shell for AI coding agents, over MCP"
   homepage "https://github.com/jgilbertcastro/shlim"
-  version "0.0.2-rc1"
+  version "0.0.3-rc1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jgilbertcastro/shlim/releases/download/v0.0.2-rc1/shlim-aarch64-apple-darwin.tar.gz"
-      sha256 "6bc77a6aa7b36e4ea3cd59a344586a079fd072e19cca7bc988d2462dc6487d13"
+      url "https://github.com/jgilbertcastro/shlim/releases/download/v0.0.3-rc1/shlim-aarch64-apple-darwin.tar.gz"
+      sha256 "0e5de883e9545bf77cf88954597bba6b8c04cb1e7d265ee00112961df340a174"
     end
     on_intel do
-      url "https://github.com/jgilbertcastro/shlim/releases/download/v0.0.2-rc1/shlim-x86_64-apple-darwin.tar.gz"
-      sha256 "99b987cb51d00886ffec1947fb0957f35db1b4b696a4825f82dba4e8d7855676"
+      url "https://github.com/jgilbertcastro/shlim/releases/download/v0.0.3-rc1/shlim-x86_64-apple-darwin.tar.gz"
+      sha256 "7346bef7d9fec499de7b3de9922194a8bd2c31d749e9123afc4a09983dd6f318"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jgilbertcastro/shlim/releases/download/v0.0.2-rc1/shlim-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "b000785be60c2acdbbde0e08d9acdeedd88feb924202564923fcea568874602c"
+      url "https://github.com/jgilbertcastro/shlim/releases/download/v0.0.3-rc1/shlim-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d2872fd463482111da33687ad2138ba3495e5c1596b48ea2714daa50dfb96a25"
     end
     on_intel do
-      url "https://github.com/jgilbertcastro/shlim/releases/download/v0.0.2-rc1/shlim-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "5bba0abeaf544baedb599aaf6b1bc2189ff42c2634ae6b7fb2193c73afd51cad"
+      url "https://github.com/jgilbertcastro/shlim/releases/download/v0.0.3-rc1/shlim-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "45898a9dd527a24cbdb00fbbdf5556dfc7be927b734bd4b54fb86ff843302f0d"
     end
   end
 
